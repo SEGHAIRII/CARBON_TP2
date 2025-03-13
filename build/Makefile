@@ -177,6 +177,30 @@ src/CDS.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlowShopBnb.dir/build.make CMakeFiles/FlowShopBnb.dir/src/CDS.cpp.s
 .PHONY : src/CDS.cpp.s
 
+src/GeneticAlgorithm.o: src/GeneticAlgorithm.cpp.o
+.PHONY : src/GeneticAlgorithm.o
+
+# target to build an object file
+src/GeneticAlgorithm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlowShopBnb.dir/build.make CMakeFiles/FlowShopBnb.dir/src/GeneticAlgorithm.cpp.o
+.PHONY : src/GeneticAlgorithm.cpp.o
+
+src/GeneticAlgorithm.i: src/GeneticAlgorithm.cpp.i
+.PHONY : src/GeneticAlgorithm.i
+
+# target to preprocess a source file
+src/GeneticAlgorithm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlowShopBnb.dir/build.make CMakeFiles/FlowShopBnb.dir/src/GeneticAlgorithm.cpp.i
+.PHONY : src/GeneticAlgorithm.cpp.i
+
+src/GeneticAlgorithm.s: src/GeneticAlgorithm.cpp.s
+.PHONY : src/GeneticAlgorithm.s
+
+# target to generate assembly for a file
+src/GeneticAlgorithm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlowShopBnb.dir/build.make CMakeFiles/FlowShopBnb.dir/src/GeneticAlgorithm.cpp.s
+.PHONY : src/GeneticAlgorithm.cpp.s
+
 src/Heuristic.o: src/Heuristic.cpp.o
 .PHONY : src/Heuristic.o
 
@@ -272,6 +296,30 @@ src/NEH.s: src/NEH.cpp.s
 src/NEH.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlowShopBnb.dir/build.make CMakeFiles/FlowShopBnb.dir/src/NEH.cpp.s
 .PHONY : src/NEH.cpp.s
+
+src/NEHLS.o: src/NEHLS.cpp.o
+.PHONY : src/NEHLS.o
+
+# target to build an object file
+src/NEHLS.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlowShopBnb.dir/build.make CMakeFiles/FlowShopBnb.dir/src/NEHLS.cpp.o
+.PHONY : src/NEHLS.cpp.o
+
+src/NEHLS.i: src/NEHLS.cpp.i
+.PHONY : src/NEHLS.i
+
+# target to preprocess a source file
+src/NEHLS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlowShopBnb.dir/build.make CMakeFiles/FlowShopBnb.dir/src/NEHLS.cpp.i
+.PHONY : src/NEHLS.cpp.i
+
+src/NEHLS.s: src/NEHLS.cpp.s
+.PHONY : src/NEHLS.s
+
+# target to generate assembly for a file
+src/NEHLS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlowShopBnb.dir/build.make CMakeFiles/FlowShopBnb.dir/src/NEHLS.cpp.s
+.PHONY : src/NEHLS.cpp.s
 
 src/PalmersHeuristic.o: src/PalmersHeuristic.cpp.o
 .PHONY : src/PalmersHeuristic.o
@@ -384,6 +432,9 @@ help:
 	@echo "... src/CDS.o"
 	@echo "... src/CDS.i"
 	@echo "... src/CDS.s"
+	@echo "... src/GeneticAlgorithm.o"
+	@echo "... src/GeneticAlgorithm.i"
+	@echo "... src/GeneticAlgorithm.s"
 	@echo "... src/Heuristic.o"
 	@echo "... src/Heuristic.i"
 	@echo "... src/Heuristic.s"
@@ -396,6 +447,9 @@ help:
 	@echo "... src/NEH.o"
 	@echo "... src/NEH.i"
 	@echo "... src/NEH.s"
+	@echo "... src/NEHLS.o"
+	@echo "... src/NEHLS.i"
+	@echo "... src/NEHLS.s"
 	@echo "... src/PalmersHeuristic.o"
 	@echo "... src/PalmersHeuristic.i"
 	@echo "... src/PalmersHeuristic.s"

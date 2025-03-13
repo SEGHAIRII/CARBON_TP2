@@ -97,10 +97,24 @@ CMakeFiles/FlowShopBnb.dir/src/CDS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlowShopBnb.dir/src/CDS.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/urie/heuristics/src/CDS.cpp -o CMakeFiles/FlowShopBnb.dir/src/CDS.cpp.s
 
+CMakeFiles/FlowShopBnb.dir/src/GeneticAlgorithm.cpp.o: CMakeFiles/FlowShopBnb.dir/flags.make
+CMakeFiles/FlowShopBnb.dir/src/GeneticAlgorithm.cpp.o: ../src/GeneticAlgorithm.cpp
+CMakeFiles/FlowShopBnb.dir/src/GeneticAlgorithm.cpp.o: CMakeFiles/FlowShopBnb.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/urie/heuristics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FlowShopBnb.dir/src/GeneticAlgorithm.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlowShopBnb.dir/src/GeneticAlgorithm.cpp.o -MF CMakeFiles/FlowShopBnb.dir/src/GeneticAlgorithm.cpp.o.d -o CMakeFiles/FlowShopBnb.dir/src/GeneticAlgorithm.cpp.o -c /home/urie/heuristics/src/GeneticAlgorithm.cpp
+
+CMakeFiles/FlowShopBnb.dir/src/GeneticAlgorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlowShopBnb.dir/src/GeneticAlgorithm.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/urie/heuristics/src/GeneticAlgorithm.cpp > CMakeFiles/FlowShopBnb.dir/src/GeneticAlgorithm.cpp.i
+
+CMakeFiles/FlowShopBnb.dir/src/GeneticAlgorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlowShopBnb.dir/src/GeneticAlgorithm.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/urie/heuristics/src/GeneticAlgorithm.cpp -o CMakeFiles/FlowShopBnb.dir/src/GeneticAlgorithm.cpp.s
+
 CMakeFiles/FlowShopBnb.dir/src/Heuristic.cpp.o: CMakeFiles/FlowShopBnb.dir/flags.make
 CMakeFiles/FlowShopBnb.dir/src/Heuristic.cpp.o: ../src/Heuristic.cpp
 CMakeFiles/FlowShopBnb.dir/src/Heuristic.cpp.o: CMakeFiles/FlowShopBnb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/urie/heuristics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FlowShopBnb.dir/src/Heuristic.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/urie/heuristics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FlowShopBnb.dir/src/Heuristic.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlowShopBnb.dir/src/Heuristic.cpp.o -MF CMakeFiles/FlowShopBnb.dir/src/Heuristic.cpp.o.d -o CMakeFiles/FlowShopBnb.dir/src/Heuristic.cpp.o -c /home/urie/heuristics/src/Heuristic.cpp
 
 CMakeFiles/FlowShopBnb.dir/src/Heuristic.cpp.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/FlowShopBnb.dir/src/Heuristic.cpp.s: cmake_force
 CMakeFiles/FlowShopBnb.dir/src/LowerBound.cpp.o: CMakeFiles/FlowShopBnb.dir/flags.make
 CMakeFiles/FlowShopBnb.dir/src/LowerBound.cpp.o: ../src/LowerBound.cpp
 CMakeFiles/FlowShopBnb.dir/src/LowerBound.cpp.o: CMakeFiles/FlowShopBnb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/urie/heuristics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FlowShopBnb.dir/src/LowerBound.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/urie/heuristics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FlowShopBnb.dir/src/LowerBound.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlowShopBnb.dir/src/LowerBound.cpp.o -MF CMakeFiles/FlowShopBnb.dir/src/LowerBound.cpp.o.d -o CMakeFiles/FlowShopBnb.dir/src/LowerBound.cpp.o -c /home/urie/heuristics/src/LowerBound.cpp
 
 CMakeFiles/FlowShopBnb.dir/src/LowerBound.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/FlowShopBnb.dir/src/LowerBound.cpp.s: cmake_force
 CMakeFiles/FlowShopBnb.dir/src/MNEH.cpp.o: CMakeFiles/FlowShopBnb.dir/flags.make
 CMakeFiles/FlowShopBnb.dir/src/MNEH.cpp.o: ../src/MNEH.cpp
 CMakeFiles/FlowShopBnb.dir/src/MNEH.cpp.o: CMakeFiles/FlowShopBnb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/urie/heuristics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FlowShopBnb.dir/src/MNEH.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/urie/heuristics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FlowShopBnb.dir/src/MNEH.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlowShopBnb.dir/src/MNEH.cpp.o -MF CMakeFiles/FlowShopBnb.dir/src/MNEH.cpp.o.d -o CMakeFiles/FlowShopBnb.dir/src/MNEH.cpp.o -c /home/urie/heuristics/src/MNEH.cpp
 
 CMakeFiles/FlowShopBnb.dir/src/MNEH.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/FlowShopBnb.dir/src/MNEH.cpp.s: cmake_force
 CMakeFiles/FlowShopBnb.dir/src/NEH.cpp.o: CMakeFiles/FlowShopBnb.dir/flags.make
 CMakeFiles/FlowShopBnb.dir/src/NEH.cpp.o: ../src/NEH.cpp
 CMakeFiles/FlowShopBnb.dir/src/NEH.cpp.o: CMakeFiles/FlowShopBnb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/urie/heuristics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FlowShopBnb.dir/src/NEH.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/urie/heuristics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FlowShopBnb.dir/src/NEH.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlowShopBnb.dir/src/NEH.cpp.o -MF CMakeFiles/FlowShopBnb.dir/src/NEH.cpp.o.d -o CMakeFiles/FlowShopBnb.dir/src/NEH.cpp.o -c /home/urie/heuristics/src/NEH.cpp
 
 CMakeFiles/FlowShopBnb.dir/src/NEH.cpp.i: cmake_force
@@ -153,10 +167,24 @@ CMakeFiles/FlowShopBnb.dir/src/NEH.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlowShopBnb.dir/src/NEH.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/urie/heuristics/src/NEH.cpp -o CMakeFiles/FlowShopBnb.dir/src/NEH.cpp.s
 
+CMakeFiles/FlowShopBnb.dir/src/NEHLS.cpp.o: CMakeFiles/FlowShopBnb.dir/flags.make
+CMakeFiles/FlowShopBnb.dir/src/NEHLS.cpp.o: ../src/NEHLS.cpp
+CMakeFiles/FlowShopBnb.dir/src/NEHLS.cpp.o: CMakeFiles/FlowShopBnb.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/urie/heuristics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FlowShopBnb.dir/src/NEHLS.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlowShopBnb.dir/src/NEHLS.cpp.o -MF CMakeFiles/FlowShopBnb.dir/src/NEHLS.cpp.o.d -o CMakeFiles/FlowShopBnb.dir/src/NEHLS.cpp.o -c /home/urie/heuristics/src/NEHLS.cpp
+
+CMakeFiles/FlowShopBnb.dir/src/NEHLS.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlowShopBnb.dir/src/NEHLS.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/urie/heuristics/src/NEHLS.cpp > CMakeFiles/FlowShopBnb.dir/src/NEHLS.cpp.i
+
+CMakeFiles/FlowShopBnb.dir/src/NEHLS.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlowShopBnb.dir/src/NEHLS.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/urie/heuristics/src/NEHLS.cpp -o CMakeFiles/FlowShopBnb.dir/src/NEHLS.cpp.s
+
 CMakeFiles/FlowShopBnb.dir/src/PalmersHeuristic.cpp.o: CMakeFiles/FlowShopBnb.dir/flags.make
 CMakeFiles/FlowShopBnb.dir/src/PalmersHeuristic.cpp.o: ../src/PalmersHeuristic.cpp
 CMakeFiles/FlowShopBnb.dir/src/PalmersHeuristic.cpp.o: CMakeFiles/FlowShopBnb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/urie/heuristics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FlowShopBnb.dir/src/PalmersHeuristic.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/urie/heuristics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FlowShopBnb.dir/src/PalmersHeuristic.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlowShopBnb.dir/src/PalmersHeuristic.cpp.o -MF CMakeFiles/FlowShopBnb.dir/src/PalmersHeuristic.cpp.o.d -o CMakeFiles/FlowShopBnb.dir/src/PalmersHeuristic.cpp.o -c /home/urie/heuristics/src/PalmersHeuristic.cpp
 
 CMakeFiles/FlowShopBnb.dir/src/PalmersHeuristic.cpp.i: cmake_force
@@ -170,7 +198,7 @@ CMakeFiles/FlowShopBnb.dir/src/PalmersHeuristic.cpp.s: cmake_force
 CMakeFiles/FlowShopBnb.dir/src/RajendranChaudhuri.cpp.o: CMakeFiles/FlowShopBnb.dir/flags.make
 CMakeFiles/FlowShopBnb.dir/src/RajendranChaudhuri.cpp.o: ../src/RajendranChaudhuri.cpp
 CMakeFiles/FlowShopBnb.dir/src/RajendranChaudhuri.cpp.o: CMakeFiles/FlowShopBnb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/urie/heuristics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FlowShopBnb.dir/src/RajendranChaudhuri.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/urie/heuristics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FlowShopBnb.dir/src/RajendranChaudhuri.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlowShopBnb.dir/src/RajendranChaudhuri.cpp.o -MF CMakeFiles/FlowShopBnb.dir/src/RajendranChaudhuri.cpp.o.d -o CMakeFiles/FlowShopBnb.dir/src/RajendranChaudhuri.cpp.o -c /home/urie/heuristics/src/RajendranChaudhuri.cpp
 
 CMakeFiles/FlowShopBnb.dir/src/RajendranChaudhuri.cpp.i: cmake_force
@@ -184,7 +212,7 @@ CMakeFiles/FlowShopBnb.dir/src/RajendranChaudhuri.cpp.s: cmake_force
 CMakeFiles/FlowShopBnb.dir/src/main.cpp.o: CMakeFiles/FlowShopBnb.dir/flags.make
 CMakeFiles/FlowShopBnb.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/FlowShopBnb.dir/src/main.cpp.o: CMakeFiles/FlowShopBnb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/urie/heuristics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FlowShopBnb.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/urie/heuristics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FlowShopBnb.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlowShopBnb.dir/src/main.cpp.o -MF CMakeFiles/FlowShopBnb.dir/src/main.cpp.o.d -o CMakeFiles/FlowShopBnb.dir/src/main.cpp.o -c /home/urie/heuristics/src/main.cpp
 
 CMakeFiles/FlowShopBnb.dir/src/main.cpp.i: cmake_force
@@ -198,7 +226,7 @@ CMakeFiles/FlowShopBnb.dir/src/main.cpp.s: cmake_force
 CMakeFiles/FlowShopBnb.dir/src/problem.cpp.o: CMakeFiles/FlowShopBnb.dir/flags.make
 CMakeFiles/FlowShopBnb.dir/src/problem.cpp.o: ../src/problem.cpp
 CMakeFiles/FlowShopBnb.dir/src/problem.cpp.o: CMakeFiles/FlowShopBnb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/urie/heuristics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FlowShopBnb.dir/src/problem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/urie/heuristics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/FlowShopBnb.dir/src/problem.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlowShopBnb.dir/src/problem.cpp.o -MF CMakeFiles/FlowShopBnb.dir/src/problem.cpp.o.d -o CMakeFiles/FlowShopBnb.dir/src/problem.cpp.o -c /home/urie/heuristics/src/problem.cpp
 
 CMakeFiles/FlowShopBnb.dir/src/problem.cpp.i: cmake_force
@@ -213,10 +241,12 @@ CMakeFiles/FlowShopBnb.dir/src/problem.cpp.s: cmake_force
 FlowShopBnb_OBJECTS = \
 "CMakeFiles/FlowShopBnb.dir/src/BranchAndBound.cpp.o" \
 "CMakeFiles/FlowShopBnb.dir/src/CDS.cpp.o" \
+"CMakeFiles/FlowShopBnb.dir/src/GeneticAlgorithm.cpp.o" \
 "CMakeFiles/FlowShopBnb.dir/src/Heuristic.cpp.o" \
 "CMakeFiles/FlowShopBnb.dir/src/LowerBound.cpp.o" \
 "CMakeFiles/FlowShopBnb.dir/src/MNEH.cpp.o" \
 "CMakeFiles/FlowShopBnb.dir/src/NEH.cpp.o" \
+"CMakeFiles/FlowShopBnb.dir/src/NEHLS.cpp.o" \
 "CMakeFiles/FlowShopBnb.dir/src/PalmersHeuristic.cpp.o" \
 "CMakeFiles/FlowShopBnb.dir/src/RajendranChaudhuri.cpp.o" \
 "CMakeFiles/FlowShopBnb.dir/src/main.cpp.o" \
@@ -227,17 +257,19 @@ FlowShopBnb_EXTERNAL_OBJECTS =
 
 FlowShopBnb: CMakeFiles/FlowShopBnb.dir/src/BranchAndBound.cpp.o
 FlowShopBnb: CMakeFiles/FlowShopBnb.dir/src/CDS.cpp.o
+FlowShopBnb: CMakeFiles/FlowShopBnb.dir/src/GeneticAlgorithm.cpp.o
 FlowShopBnb: CMakeFiles/FlowShopBnb.dir/src/Heuristic.cpp.o
 FlowShopBnb: CMakeFiles/FlowShopBnb.dir/src/LowerBound.cpp.o
 FlowShopBnb: CMakeFiles/FlowShopBnb.dir/src/MNEH.cpp.o
 FlowShopBnb: CMakeFiles/FlowShopBnb.dir/src/NEH.cpp.o
+FlowShopBnb: CMakeFiles/FlowShopBnb.dir/src/NEHLS.cpp.o
 FlowShopBnb: CMakeFiles/FlowShopBnb.dir/src/PalmersHeuristic.cpp.o
 FlowShopBnb: CMakeFiles/FlowShopBnb.dir/src/RajendranChaudhuri.cpp.o
 FlowShopBnb: CMakeFiles/FlowShopBnb.dir/src/main.cpp.o
 FlowShopBnb: CMakeFiles/FlowShopBnb.dir/src/problem.cpp.o
 FlowShopBnb: CMakeFiles/FlowShopBnb.dir/build.make
 FlowShopBnb: CMakeFiles/FlowShopBnb.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/urie/heuristics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable FlowShopBnb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/urie/heuristics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable FlowShopBnb"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FlowShopBnb.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
